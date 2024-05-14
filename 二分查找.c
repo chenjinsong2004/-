@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS 1//Ö»ÄÜ·ÅµÚÒ»ĞĞ
+#define _CRT_SECURE_NO_WARNINGS 1//åªèƒ½æ”¾ç¬¬ä¸€è¡Œ
 #include<time.h>
 #include<math.h>
 #include<stdio.h>
@@ -23,9 +23,9 @@ void move(int n, char one, char two, char three)
 int main()
 {
 	int n = 0;
-	printf("ÊäÈëÅÌ×ÓÊıÁ¿£º");
+	printf("è¾“å…¥ç›˜å­æ•°é‡ï¼š");
 	scanf("%d", &n);
-	printf("ÒÆ¶¯²½ÖèÎª£º\n");
+	printf("ç§»åŠ¨æ­¥éª¤ä¸ºï¼š\n");
 	move(n, 'a', 'b','c');
 	return 0;
 }
